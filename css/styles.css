@@ -18,6 +18,7 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+  font-size: 16px;
 }
 a {
   text-decoration: none;
@@ -43,7 +44,6 @@ ul {
 
 .nov-list {
   font-weight: 500;
-  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -51,7 +51,6 @@ ul {
 /* address */
 .list-link {
   color: #434455;
-  font-size: 16px;
   letter-spacing: 0.02em;
 }
 .list-link:hover,
@@ -77,11 +76,12 @@ ul {
   background-color: #4d5ae5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  font-size: 16px;
+
   font-weight: 500;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 
@@ -95,7 +95,6 @@ ul {
   color: var(--navy-blue);
 }
 .text-section-one {
-  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
@@ -118,7 +117,6 @@ ul {
   color: var(--navy-blue);
 }
 .text-team {
-  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
@@ -138,7 +136,6 @@ ul {
   color: var(--navy-blue);
 }
 .text-portfolio {
-  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
@@ -159,7 +156,6 @@ ul {
   color: var(--cloud);
 }
 .footer-tex {
-  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
